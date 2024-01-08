@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height:100%;
+    background-color: rgb(250, 249, 246);
+
+}
+
+.topbar{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 136, 255);
+}
+.leftbar{
+    width:auto;
+    height: 13vh;
+    display: flex;
+}
+img{
+    margin-left: 2%;
+}
+.subtitle{
+    color: white;
+    text-align: center;
+    padding-top: 2.5%;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.studentinf{
+    width: auto;
+    display: flex;
+    padding-right: 5%;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 2.5%;
+}
+
+#sname,#sid{
+    font-size: 1.5rem;
+    padding-right: 4%;
+    padding-left: 2%;
+text-decoration: underline;
+}
+#desc{
+    font-size: 1.5rem;
+    font-family: arial;
+    font-weight: 700;
+    margin-top: .5%;
+}
+marquee{
+    background-color: yellow;
+    height: 4vh;
+    color: red;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin-top: .5%;
+    margin-bottom: 0.3%;
+}
+.instructions{
+    height: 55vh;
+    width: 70vw;
+    margin-left: 15%;
+    background-color: white;
+}
+
+.innerbx{
+    padding: 1%;
+    padding-left: 2%;
+    height: 50vh;
+    width: auto;
+    border: 1px solid rgba(159, 173, 188, 0.351);
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 1.1em;
+    font-family: sans-serif;
+
+    .inst{
+        margin-left: 4%;
+        font-weight: 550;
+        padding-top: 1%;
+    }
+}
+
+
+#head{
+    background-color:  rgb(6, 124, 228);
+    color: rgb(250, 249, 246);
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-top: 3px;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.checkform{
+    margin-left: 15%;
+    font-size: 1rem;
+    font-family: arial;
+    font-weight: 600;
+    
+
+    #chkbx{
+        margin-top: 1%;
+        height: 16px;
+        width: 16px;
+    }
+
+    #sbtn{
+        margin-bottom: 1%;
+        color: rgb(250, 249, 246);
+        background: rgb(63, 183, 142);
+        width: 10%;
+        height: 5vh;
+        margin-top: 1%;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+
+}
+.cpy{
+    padding: 8px 40px;
+
+    margin-top: 1%;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    background: rgb(240,240,240);
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: sans-serif;
+    
+}

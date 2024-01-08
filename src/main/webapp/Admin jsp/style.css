@@ -1,0 +1,701 @@
+/*HOMEPAGE*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration: none;
+}
+body{
+    background-color: #e5e5e5;
+}
+.topbar { 
+            padding: 5px 0;
+            text-align: left;
+            font-family: sans-serif;
+        }
+
+        /* Style the title within the topbar */
+        .topbar h1 {
+        color: #fca311;  
+        font-size: 3em;
+        padding-left: 2%;
+    
+        }
+        .topbar h1 a{
+        color: #fca311;
+        }
+
+        
+
+
+        
+/* Navbar styles */
+.navbar {
+  height:10vh;
+  margin: 0;
+  padding-top: 1%;
+  margin-top: 1%;
+  padding-bottom: 28px;
+  background-color:#14213d;
+  text-align: center;
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar li {
+  display: inline-block;
+  font-size:1.3em;
+  padding:0px;
+}
+
+.navbar li a {
+  display: block;
+  width: 10vw;
+  color: white;
+}
+
+/* Dropdown menu styles */
+.dropdown {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding:0px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  gap: 5%;
+
+}
+
+.dropdown li {
+  display: flex;
+  flex-direction: column;
+
+
+  
+
+
+}
+
+.dropdown li a {
+  width:10vw;
+  text-align:center;
+  font-size: .7em;
+  background-color:white;
+  color: #fca311;
+}
+
+.navbar li:hover .dropdown {
+  display: block; 
+
+}
+.dropdown li:hover{
+  display: block;
+  
+}
+
+.dropdown a:hover{
+    background-color: lightgrey;
+}
+
+/*main content like body*/
+
+h1{
+  font-size:60px;
+}
+
+main {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+main p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333333;
+}
+
+main h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+}
+
+
+/*CSS FOR CONTAINERS TEAM LEADERS*/
+/* Basic styles for the dashboard container */
+
+.desc{
+    font-family: sans-serif;
+    font-size: 2em;
+    align-self: center;
+    text-align: center;
+    font-style: italic;
+    padding-top: 1%;
+}
+        .dashboard-container {
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+        }
+
+        /* Style for the content blocks */
+        .content-block {
+            width: 300px;
+            height: 200px;
+            background-color: #f4f4f4;
+            border: 5px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: border 0.3s; /* Add a transition effect for the border */
+        }
+
+        /* Add a border when hovering over the content block */
+        .content-block:hover {
+            border: 5px solid #007bff;
+            background-color: lightgrey;
+        }
+
+        /* Style for the block titles */
+        .block-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            
+        }
+
+        /* Style for the block content */
+        .block-content {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+      h2{
+        text-align: center;
+      }
+
+
+
+/*Content Overview*/
+/* Content styles */
+
+.content-section {
+    border:2px ;
+    background-color: #ffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.imgcontainer{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffff;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+    .mySlides{
+        height: 50vh;
+        width: 40vw;
+    }
+
+}
+
+
+
+
+/* main css
+
+.faculty{
+  border-style:solid;
+  border-radius:15px;
+}
+
+.students{
+  border-style:solid;
+}
+
+.subjects{
+  border-style:solid;
+}
+*/
+
+/*FACULTYLIST*/
+.box-title{
+    color: #20446a;
+    font-size:1em;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    
+}
+
+.table-container{
+    margin-left: 40%;
+    width: 20vw;
+    height: auto;
+
+}
+table {
+            width:auto;
+            border-collapse: collapse;
+            margin: 5%;
+        }
+        
+        th, td {
+            border: 1px solid #fffefe;
+            padding: 8px;
+            text-align: left;
+        
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+
+
+  /*MANAGE-FACULTY*/
+
+  /*Faculty List*/
+
+
+.facultymanage {
+            background-color: #e2e4e8;
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            padding-bottom: 2%;
+            padding-left: 7%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #14213d;
+
+           .box{
+            width: 40vw;
+           }
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        /* CSS for the faculty management form */
+        form {
+            margin-top: 20px;
+        }
+        
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        .submit{
+            background-color:orangered;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .submit:hover {
+            background-color: #51c648;
+        }  
+
+
+/*UPDATE-REMOVE FACULTY*/
+
+.urfaculty {
+          
+            background-color: #f2f2f2;
+           font-family: Arial, sans-serif;
+        width: 60vw;
+            margin-left: 20%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #14213d;
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        /* CSS for the faculty management table */
+        table {
+            margin: 0%;
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            color: #14213d;
+        }
+        
+        th {
+            background-color:#14213d;
+            color: #fff;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .action-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .update-button, .remove-button {
+            background-color: #14213d;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .update-button:hover, .remove-button:hover {
+            background-color: #14213d;
+        }
+
+
+
+
+/*MANAGE STUDENTS*/
+
+.managestudents {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #14213d;
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        /* CSS for the faculty management form */
+        form {
+            margin-top: 20px;
+        }
+        
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"]{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+         
+        input[type="email"], input[type="password"]{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+
+        button {
+            background-color: #14213d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #14213d;
+        }  
+
+
+
+
+
+
+
+.urstudents {
+          
+            background-color: #f2f2f2;
+           font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #14213d;
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        /* CSS for the faculty management table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #14213d;
+            color: #fff;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .action-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .update-button, .remove-button {
+            background-color: #14213d;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .update-button:hover, .remove-button:hover {
+            background-color: rgba(0, 0, 0, 0.2);;
+        }
+
+
+/*MANAGE SUBJECTS*/
+
+.managesubjects {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #14213d;
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        /* CSS for the faculty management form */
+        form {
+            margin-top: 20px;
+        }
+        
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"]{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        button {
+            background-color:#14213d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: rgba(0, 0, 0, 0.2);;
+            
+        }  
+
+
+
+
+.ursubjects {
+          
+            background-color: #f2f2f2;
+           font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #14213d;
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        /* CSS for the faculty management table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #14213d;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #14213d;
+            color: rgb(255, 255, 255);
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .action-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .update-button, .remove-button {
+            background-color: #14213d;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .update-button:hover, .remove-button:hover {
+            background-color: #14213d;
+        }
+
+
+
+
+/*MAKE PAPER*/
+
+.makepapers {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #14213d;
+        }
+        
+        h2 {
+            margin-top: 0;
+        }
+        
+        /* CSS for the faculty management form */
+        form {
+            margin-top: 20px;
+        }
+        
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"], select{
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        input[type="submit"] {
+            background-color: #14213d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #14213d;
+        }  
+
+        button {
+            background-color: #14213d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: rgba(0, 0, 0, 0.2);;
+        }  
+
+        button a{
+            color: white;
+            text-decoration: none;
+        }
+
+
+
+/* Add this to your existing CSS or create a new CSS file */
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Add more styles as needed */

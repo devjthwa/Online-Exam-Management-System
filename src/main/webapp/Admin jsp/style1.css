@@ -1,0 +1,226 @@
+/*HOMEPAGE*/
+
+.topbar {
+            background-color: white;
+            color: #007BFF;
+            padding: 5px 0;
+            text-align: left;
+            font-family:'Brush Script MT', ;
+        }
+
+        /* Style the title within the topbar */
+        .topbar h1 {
+            font-size: 29px;
+          padding-left:100px;
+        }
+
+        .topbar h1 a{
+          color: #007bff;
+          text-decoration: none;
+        }
+
+        
+/* Navbar styles */
+.navbar {
+  height:40px;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 28px;
+  background-color: #007BFF;
+  text-align:center;
+
+}
+
+.navbar li {
+  display: inline-block;
+  font-size:18px;
+  padding:0px;
+}
+
+.navbar li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Dropdown menu styles */
+.dropdown {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding:0px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown li {
+  display: block;
+
+  
+
+
+}
+
+.dropdown li a {
+  padding: 10px 20px;
+  background-color:white;
+  color: #007BFF;
+}
+
+.navbar li:hover .dropdown {
+  display: block; 
+
+}
+.dropdown li:hover{
+  display: block;
+  
+}
+
+.dropdown a:hover{
+    background-color: lightgrey;
+}
+
+
+
+
+
+
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+h1 a{
+  color: #007bff;
+}
+
+
+}
+
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 20%;
+    max-width: 800px;
+}
+
+/* Form styles */
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+textarea,
+input[type="text"],
+select {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+     background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Question list styles */
+.quelist {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+details {
+    text-align: left;
+    padding: 10px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+
+}
+
+/* Subject selection styles */
+.h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Add this to your existing CSS or create a new CSS file */
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Add more styles as needed */
